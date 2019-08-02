@@ -24,9 +24,10 @@ export default {
 
 <style>
 .hero {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 .hero-text {

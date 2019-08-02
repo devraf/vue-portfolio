@@ -18,7 +18,7 @@
       <li>
         <a href="https://github.com/devraf">
           <svg width="35" height="35" viewBox="0 0 35 35">
-            <title>github-icon</title>
+            <title>github-devraf</title>
             <g>
               <path
                 d="M17.5,0A17.73,17.73,0,0,0,0,17.94,17.91,17.91,0,0,0,12,35c.87.17,1.19-.39,1.19-.86s0-1.85,0-3.34c-4.87,1.08-5.9-2.12-5.9-2.12A4.69,4.69,0,0,0,5.3,26c-1.59-1.11.12-1.09.12-1.09A3.68,3.68,0,0,1,8.1,26.78a3.68,3.68,0,0,0,5.1,1.49,3.83,3.83,0,0,1,1.11-2.4c-3.89-.45-8-2-8-8.86a7.06,7.06,0,0,1,1.81-4.82,6.56,6.56,0,0,1,.17-4.75S9.78,7,13.12,9.28a16.29,16.29,0,0,1,8.76,0C25.22,7,26.69,7.44,26.69,7.44a6.56,6.56,0,0,1,.17,4.75A7,7,0,0,1,28.66,17c0,6.89-4.09,8.4-8,8.85a4.34,4.34,0,0,1,1.19,3.32c0,2.4,0,4.33,0,4.93s.32,1,1.2.86a17.92,17.92,0,0,0,12-17A17.73,17.73,0,0,0,17.5,0Z"
@@ -79,25 +79,24 @@ export default {
 
 <style>
 footer {
-  height: 20vh;
-  position: relative;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer-info ul {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .footer-info li {
   display: inline-block;
   padding: 0 0.8rem;
-  align-self: center;
-  justify-self: end;
+  margin: 0 0.25rem;
+  /* align-self: center;
+  justify-self: end; */
 }
-
+/* 
 .footer-info svg {
   width: 3.5rem;
   height: auto;
-}
+} */
 </style>

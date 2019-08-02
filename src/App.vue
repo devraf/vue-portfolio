@@ -35,12 +35,11 @@ body {
   font-family: program, sans-serif;
   font-weight: 400;
   font-style: normal;
-
   font-size: 1.2rem;
   line-height: 1.7;
   color: hsla(0, 0%, 1%, 1);
   box-sizing: border-box;
-  height: 100vh;
+  /* height: 100vh; */
   animation: fadeIn 3s;
 }
 @keyframes fadeIn {
