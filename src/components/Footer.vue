@@ -79,7 +79,7 @@ export default {
 
 <style>
 footer {
-  height: 10vh;
+  height: 20vh;
   position: relative;
 }
 .footer-info ul {

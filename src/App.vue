@@ -41,6 +41,15 @@ body {
   color: hsla(0, 0%, 1%, 1);
   box-sizing: border-box;
   height: 100vh;
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /* .component-fade-enter-active,
 .component-fade-leave-active {
